@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<preset>
+
+<description>Selbsteinsch&#xE4;tzung m&#xFC;ndliche Leistung: Den Bogen stellt die Lehrkraft direkt in der Datenbank ein</description>
+
+<settings>
+<intro>&lt;p&gt;Mit diesem Bogen sch&#xE4;tzt du deine m&#xFC;ndliche Leistung selbst ein. Deinen Eintrag sehen nur du und deine Lehrkraft. Der Bogen dient nur zu deiner Selbsteinsch&#xE4;tzung und hat keinen Einfluss auf etwaige Noten.&lt;/p&gt;</intro>
+<comments>0</comments>
+<requiredentries>0</requiredentries>
+<requiredentriestoview>0</requiredentriestoview>
+<maxentries>0</maxentries>
+<rssarticles>0</rssarticles>
+<approval>1</approval>
+<manageapproved>1</manageapproved>
+<defaultsortdir>1</defaultsortdir>
+<defaultsort>0</defaultsort>
+</settings>
+
+<field>
+<type>text</type>
+<name>Typ</name>
+<description>Art des Eintrags (setzt das Skript): Einschaetzung oder Einstellung</description>
+<required>0</required>
+</field>
+
+<field>
+<type>text</type>
+<name>Fach</name>
+<description>Fach</description>
+<required>0</required>
+</field>
+
+<field>
+<type>text</type>
+<name>Halbjahr</name>
+<description>Halbjahr bzw. Klasse und Halbjahr</description>
+<required>0</required>
+</field>
+
+<field>
+<type>text</type>
+<name>Erwartung</name>
+<description>Spontane Einsch&#xE4;tzung vor dem Ausf&#xFC;llen</description>
+<required>0</required>
+</field>
+
+<field>
+<type>text</type>
+<name>Antworten</name>
+<description>Antworten auf die Fragen, kodiert (setzt das Skript)</description>
+<required>0</required>
+</field>
+
+<field>
+<type>textarea</type>
+<name>Beispiel</name>
+<description>Ein Beitrag aus den letzten Wochen, der f&#xFC;r meine m&#xFC;ndliche Leistung typisch ist</description>
+<required>0</required>
+<param2>60</param2>
+<param3>4</param3>
+</field>
+
+<field>
+<type>textarea</type>
+<name>Vorsatz</name>
+<description>Was ich mir f&#xFC;r die n&#xE4;chsten Wochen konkret vornehme</description>
+<required>0</required>
+<param2>60</param2>
+<param3>4</param3>
+</field>
+
+<field>
+<type>text</type>
+<name>Einstellung</name>
+<description>Einstellungen des Bogens, kodiert (nur im Eintrag der Lehrkraft, setzt das Skript)</description>
+<required>0</required>
+</field>
+
+</preset>
